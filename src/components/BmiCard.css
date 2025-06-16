@@ -1,0 +1,170 @@
+.BmiCard-container {
+    border-top: 3px solid black;
+    border-bottom: 2px solid black;
+    margin: 20px;
+}
+
+.BmiCard-top-section {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    padding-bottom: 5px;
+}
+
+.BmiCard-gym-details {
+    display: flex;
+    align-items: center;
+}
+
+.BmiCard-gym-details-left {
+    padding: 0 10px;
+}
+
+.BmiCard-gym-logo img {
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.BmiCard-gym-name {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+}
+
+.BmiCard-gym-address-card {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 2px;
+    margin: 5px 0;
+    text-align: center;
+    width: 80%;
+}
+
+.BmiCard-gym-details-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+}
+
+.BmiCard-personal-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px;
+}
+
+.BmiCard-personal-details-left {
+    width: 60%;
+}
+
+.BmiCard-personal-details-left-row {
+    display: flex;
+}
+
+.BmiCard-personal-details-left-row-field {
+    width: 30%;
+    text-align: left;
+}
+
+.BmiCard-personal-details-left-row-value {
+    padding-left: 5px;
+}
+
+.BmiCard-personal-details-right {
+    width: 40%;
+}
+
+.BmiCard-personal-details-right-row {
+    display: flex;
+}
+
+.BmiCard-personal-details-right-row-field {
+    width: 45%;
+    text-align: left;
+}
+
+.BmiCard-personal-details-right-row-value {
+    padding-left: 5px;
+}
+
+.BmiCard-bottom-section-header {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 25px;
+    text-align: center;
+}
+
+.BmiCard-bottom-section-header-routine {
+    width: 70%;
+}
+
+.BmiCard-bottom-section-header-set {
+    width: 15%;
+}
+
+.BmiCard-bottom-section-header-rep {
+    width: 15%;
+}
+
+.BmiCard-exercise-table {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.BmiCard-exercise-table:nth-child(3) {
+    page-break-before: always;
+}
+
+.BmiCard-exercise-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.BmiCard-exercise-table thead {
+    text-align: left;
+    height: 40px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.BmiCard-exercise-table tr {
+    border-bottom: 1px solid black;
+}
+
+.BmiCard-exercise-table thead:first-child {
+    border-top: none;
+}
+
+.BmiCard-exercise-table thead:last-child {
+    border-bottom: none;
+}
+
+.BmiCard-exercise-table th:nth-child(1) {
+    padding-left: 5px;
+    width: 70%;
+}
+
+.BmiCard-exercise-table th:nth-child(2) {
+    width: 15%;
+}
+
+.BmiCard-exercise-table th:nth-child(3) {
+    width: 15%;
+}
+
+.BmiCard-exercise-table td:nth-child(1) {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.BmiCard-exercise-table td:nth-child(2) {
+    border-left: 1px solid black;
+    text-align: center;
+}
+
+.BmiCard-exercise-table td:nth-child(3) {
+    border-left: 1px solid black;
+    text-align: center;
+}
