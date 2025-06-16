@@ -26,7 +26,7 @@ function QrCode() {
                     <QRCode
                         size={256}
                         style={{ height: "300px", width: "300px" }}
-                        value={"https://SachinGowda1619.github.io/"}
+                        value={"https://sachingowda1619.github.io/bmi-card/"}
                         bgColor='black'
                         fgColor='orange'
                     />
