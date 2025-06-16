@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/bmi-card" element={<Home />} />
         <Route path="/qrCode" element={<QrCode />} />
       </Routes>
     </Router>
