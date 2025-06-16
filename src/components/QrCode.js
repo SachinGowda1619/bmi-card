@@ -26,7 +26,7 @@ function QrCode() {
                     <QRCode
                         size={256}
                         style={{ height: "300px", width: "300px" }}
-                        value={"www.cricbuzz.com"}
+                        value={"https://SachinGowda1619.github.io/"}
                         bgColor='black'
                         fgColor='orange'
                     />
