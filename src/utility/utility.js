@@ -9,7 +9,7 @@ const appData = {
     website: 'fitnesslounge.in',
     traineesData: {
         '8088616230': {
-            name: 'Sachin Gowda',
+            name: 'Sachin Gowda D G',
             age: 27,
             weight: 87.5,
             height: 182,
