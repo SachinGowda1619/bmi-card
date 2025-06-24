@@ -1,4 +1,4 @@
-import Logo from '../assets/logo.webp';
+import Logo from '../assets/logo.jpeg';
 import traineeData from './traineeData.json';
 
 const appData = {

@@ -71,18 +71,6 @@ export default function Admin() {
         setEditTrainee(updated);
     }
 
-    function handleSave() {
-        if (!selectedPhone) {
-            alert("Please enter or select a phone number.");
-            return;
-        }
-        setData(prev => ({
-            ...prev,
-            [selectedPhone]: editTrainee,
-        }));
-        alert("Changes saved!");
-    }
-
     function handleFileUpload(event) {
         setUploadError("");
         const file = event.target.files[0];
