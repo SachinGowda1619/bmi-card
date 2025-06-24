@@ -1,0 +1,196 @@
+/* TraineeEditor.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.1);
+}
+
+.upload-div {
+  display: flex;
+  align-items: center;
+}
+
+.custom-file-upload {
+  background: #2980b9;
+  color: white;
+  font-size: 1.1rem;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background: #1f5a85;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+h2 {
+  margin-bottom: 25px;
+  color: #2c3e50;
+  font-weight: 700;
+  text-align: center;
+}
+
+label.select-label {
+  display: block;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+select {
+  width: 100%;
+  max-width: 320px;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1.8px solid #ddd;
+  transition: border-color 0.2s ease;
+}
+
+select:focus {
+  outline: none;
+  border-color: #2980b9;
+  box-shadow: 0 0 6px #2980b9aa;
+}
+
+.mode-toggle {
+  padding: 20px 0;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 20px 15px;
+  margin-top: 25px;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.field-group label {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #555;
+}
+
+.field-group input {
+  padding: 8px 10px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.25s ease;
+}
+
+.field-group input:focus {
+  outline: none;
+  border-color: #2980b9;
+  box-shadow: 0 0 8px #2980b9aa;
+}
+
+.exercise-section {
+  margin-top: 35px;
+}
+
+.exercise-card {
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 0.05);
+}
+
+.exercise-card strong {
+  font-size: 1.15rem;
+  color: #34495e;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 6px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.exercise-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.exercise-name {
+  flex: 1;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.exercise-row input,
+.routine-heading {
+  width: 70px;
+  padding: 6px 8px;
+  font-size: 0.95rem;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.25s ease;
+}
+
+.exercise-row input:focus,
+.routine-heading:focus {
+  outline: none;
+  border-color: #2980b9;
+  box-shadow: 0 0 8px #2980b9aa;
+}
+
+.routine-heading {
+  width: 250px;
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 1.25rem;
+  margin-left: 15px;
+}
+
+button.save-btn {
+  background: #2980b9;
+  color: white;
+  font-size: 1.1rem;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button.save-btn:hover {
+  background: #1f5a85;
+}
+
+.no-data {
+  margin-top: 30px;
+  font-size: 1.1rem;
+  color: #c0392b;
+  text-align: center;
+}
