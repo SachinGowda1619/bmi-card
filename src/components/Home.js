@@ -50,10 +50,12 @@ function Home() {
                     Oops!!! No data found
                 </div>
             }
-            {number.length !== 10 || number.length !== 0 &&
-                <div className='error-banner'>
-                    Enter a valid 10 digit number
-                </div>
+            {number.length > 0 &&
+                {number.length !== 10 &&
+                     <div className='error-banner'>
+                         Enter a valid 10 digit number
+                     </div>
+                }
             }
         </div>
     );
