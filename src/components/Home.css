@@ -1,0 +1,72 @@
+.home {
+    max-width: 900px;
+    margin: 60% auto;
+    padding: 20px 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgb(0 0 0 / 0.1);
+    justify-self: center;
+}
+
+.home-title {
+    margin-bottom: 25px;
+    color: #2c3e50;
+    font-weight: 700;
+    text-align: center;
+}
+
+.home-input {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-self: center;
+}
+
+.home-input input {
+    margin: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-family: Verdana;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 10px;
+    color: #333;
+}
+
+.home-input button {
+    padding: 10px 25px;
+    margin: 20px 0;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.home-input button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.home-input button:disabled {
+    background-color: #d3d3d3;
+    color: #a1a1a1;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.home-input button:disabled:hover {
+    background-color: #d3d3d3;
+}
+
+.error-banner {
+    text-align: center;
+    color: red;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
