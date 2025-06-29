@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/bmi-card/static/css/main.32d97418.css",
+    "main.css": "/bmi-card/static/css/main.8bb1919a.css",
     "main.js": "/bmi-card/static/js/main.91d092cd.js",
     "static/js/977.4e9102ec.chunk.js": "/bmi-card/static/js/977.4e9102ec.chunk.js",
     "static/js/455.6c0ce197.chunk.js": "/bmi-card/static/js/455.6c0ce197.chunk.js",
     "static/js/453.219ddd63.chunk.js": "/bmi-card/static/js/453.219ddd63.chunk.js",
     "static/media/logo.jpeg": "/bmi-card/static/media/logo.d659cb39b7925ef514eb.jpeg",
     "index.html": "/bmi-card/index.html",
-    "main.32d97418.css.map": "/bmi-card/static/css/main.32d97418.css.map",
+    "main.8bb1919a.css.map": "/bmi-card/static/css/main.8bb1919a.css.map",
     "main.91d092cd.js.map": "/bmi-card/static/js/main.91d092cd.js.map",
     "977.4e9102ec.chunk.js.map": "/bmi-card/static/js/977.4e9102ec.chunk.js.map",
     "455.6c0ce197.chunk.js.map": "/bmi-card/static/js/455.6c0ce197.chunk.js.map",
     "453.219ddd63.chunk.js.map": "/bmi-card/static/js/453.219ddd63.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32d97418.css",
+    "static/css/main.8bb1919a.css",
     "static/js/main.91d092cd.js"
   ]
 }
