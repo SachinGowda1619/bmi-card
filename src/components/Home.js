@@ -37,6 +37,7 @@ function Home() {
                     value={number}
                     max={10}
                     onChange={e => setNumber(e.target.value)}
+                    pattern="-?[0-9]+"
                 />
                 <button onClick={handleSubmit}disabled={number.length === 10 && appData.traineesData[number] ? false : true}>
                     Download
