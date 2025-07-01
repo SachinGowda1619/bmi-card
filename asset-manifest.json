@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/bmi-card/static/css/main.30076847.css",
-    "main.js": "/bmi-card/static/js/main.5360e41c.js",
+    "main.js": "/bmi-card/static/js/main.ae478e57.js",
     "static/js/977.4e9102ec.chunk.js": "/bmi-card/static/js/977.4e9102ec.chunk.js",
     "static/js/455.6c0ce197.chunk.js": "/bmi-card/static/js/455.6c0ce197.chunk.js",
     "static/js/453.219ddd63.chunk.js": "/bmi-card/static/js/453.219ddd63.chunk.js",
     "static/media/logo.jpeg": "/bmi-card/static/media/logo.d659cb39b7925ef514eb.jpeg",
     "index.html": "/bmi-card/index.html",
     "main.30076847.css.map": "/bmi-card/static/css/main.30076847.css.map",
-    "main.5360e41c.js.map": "/bmi-card/static/js/main.5360e41c.js.map",
+    "main.ae478e57.js.map": "/bmi-card/static/js/main.ae478e57.js.map",
     "977.4e9102ec.chunk.js.map": "/bmi-card/static/js/977.4e9102ec.chunk.js.map",
     "455.6c0ce197.chunk.js.map": "/bmi-card/static/js/455.6c0ce197.chunk.js.map",
     "453.219ddd63.chunk.js.map": "/bmi-card/static/js/453.219ddd63.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30076847.css",
-    "static/js/main.5360e41c.js"
+    "static/js/main.ae478e57.js"
   ]
 }
