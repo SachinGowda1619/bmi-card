@@ -1,7 +1,7 @@
 import './BmiCard.css';
 
 import appData from '../utility/utility';
-import Logo from '../assets/logo.webp';
+import Logo from '../assets/logo.jpeg';
 
 function BmiCard(number) {
     const phoneNumber = number?.number || '';
