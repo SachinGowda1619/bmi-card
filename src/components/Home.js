@@ -84,8 +84,8 @@ function Home() {
 
         let mergedBlob = new Blob([mergedBytes], { type: 'application/pdf' });
 
-        mergedBlob = await removePageFromPDFBlob(mergedBlob, 1);
-        mergedBlob = await removePageFromPDFBlob(mergedBlob, 2);
+        //mergedBlob = await removePageFromPDFBlob(mergedBlob, 1);
+        //mergedBlob = await removePageFromPDFBlob(mergedBlob, 2);
 
         const link = document.createElement('a');
         link.href = URL.createObjectURL(mergedBlob);
